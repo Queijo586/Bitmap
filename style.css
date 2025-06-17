@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+#Ligadaslendas{
+    background-image: url(home-banner.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 115vh;
+    z-index: -9;
+}
+
+
+#Top{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+#armaduradewarmog{
+    margin-left: 30vh;
+}
+
+#ItensTop{
+    margin-left: 20vh;
+    margin-top: 10px;
+    align-items: center;
+}
+#armadura:hover {
+    color: #fcdc00;
+}
+#passivaunica:hover {
+    color: #fcdc00;
+}
+#vida:hover {
+    color: #fcdc00;
+}
+#imolar:hover {
+    color: #fcdc00;
+}
+#dano:hover {
+    color: #fcdc00;
+}
+#cdr:hover {
+    color: #fcdc00;
+}
+#gold:hover {
+    color: #fcdc00;
+}
+
+
+
+.egidedefogo{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 80%;
+    
+    font-family: Poppins;
+    color: white;
+}
+
+#coracaodeaco{
+    height: 15px;
+    width: 15px;
+    padding-left: 22vh;
+    padding-top: 10px;
+}
+#coracaodeaco>svg{
+    height: 15px;
+    width: 15px;
+    fill: white;
+}
+
+
+#espadaGPC{
+    position: absolute ;
+    top: 45vh;
+    left: 65vh;
+    right: 50vh;
+    
+    max-width: 555px;
+    background-color: black;
+    padding: 15px 60px;
+    color: #fff;
+    width: 455px;
+}
+#espadalonga{
+    text-align: center;
+    font-size: 40px;
+}
+#brasadebami{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+#lagrimadadeusa{
+    background-color: #fcdc00;
+    text-align: center; 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    padding: 10px;
+}
+#lagrimadadeusa>a{
+    text-decoration: none;
+    font-family: Poppins;
+    color: black;
+    font-style:normal;
+}
+
+
+#Mid{
+    position: flex;
+    height: 180VH;
+    background-color: aqua;
+}
